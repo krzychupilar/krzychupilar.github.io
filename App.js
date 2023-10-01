@@ -1,16 +1,13 @@
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
+import React from "react";
+import "./App.scss";
+import Main from "./containers/Main";
 
-export default function MyApp() {
+function App() {
   return (
     <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
+      <Main />
     </div>
   );
 }
+
+export default App;
